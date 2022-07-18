@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/first"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/second"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/board"
+        android:title="게시판" />
+
+    <item
+        android:id="@+id/third"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/setting"
+        android:title="세팅" />
+</menu>
